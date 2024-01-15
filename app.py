@@ -1,4 +1,3 @@
-pip install google-generativeai
 from flask import Flask, request, render_template
 import google.generativeai as palm
 palm.configure(api_key="AIzaSyCqc_5CFvDZsKldw9nR7eXFiHAwKATGcts")
